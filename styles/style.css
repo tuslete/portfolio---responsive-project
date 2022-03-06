@@ -1,5 +1,40 @@
+body {
+  background-color: rgb(230, 198, 159);
+}
+
 h1 {
-  color: greenyellow;
-  background-color: blanchedalmond;
   font-family: "Cardo", serif;
+  font-size: 55px;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 27px;
+}
+
+.photo-homepage {
+  width: 75%;
+  height: 75%;
+}
+
+.hero {
+  margin: 150px 150px;
+  text-align: center;
+}
+
+.portfolio-button {
+  background: #275e47;
+  border-radius: 2px;
+  box-shadow: var(--box-shadow);
+  color: white;
+
+  font-family: "Cormorant Garamond", serif;
+  font-size: 15px;
+
+  margin: 20px 100px;
+  padding: 15px 40px;
+
+  text-align: center;
+  text-decoration: none;
 }
