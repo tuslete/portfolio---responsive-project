@@ -1,5 +1,11 @@
+:root {
+  --branding-color: #275e47;
+
+  --box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+}
+
 body {
-  background-color: rgb(230, 198, 159);
+  background-color: #a2bb4a;
 }
 
 h1 {
@@ -8,14 +14,17 @@ h1 {
   font-weight: bold;
 }
 
+h2 {
+  font-family: "Bodoni Moda", serif;
+  font-size: 96px;
+  margin: 60px 0;
+  text-align: center;
+}
 h3 {
   font-family: "Cormorant Garamond", serif;
   font-size: 27px;
-}
-
-.photo-homepage {
-  width: 75%;
-  height: 75%;
+  margin-bottom: 60px;
+  margin-top: 20px;
 }
 
 .hero {
@@ -23,8 +32,16 @@ h3 {
   text-align: center;
 }
 
+.photo-homepage {
+  width: 75%;
+  height: 90%;
+}
+
+.info {
+  margin-left: 0;
+}
 .portfolio-button {
-  background: #275e47;
+  background: var(--branding-color);
   border-radius: 2px;
   box-shadow: var(--box-shadow);
   color: white;
@@ -37,4 +54,12 @@ h3 {
 
   text-align: center;
   text-decoration: none;
+}
+
+.portfolio-button:hover {
+  color: white;
+}
+
+.portfolio-page {
+  background-color: rgb(233, 222, 127);
 }
