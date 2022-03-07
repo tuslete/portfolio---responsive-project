@@ -32,15 +32,10 @@ h3 {
   text-align: center;
 }
 
-.photo-homepage {
-  width: 75%;
-  height: 90%;
-}
-
 .info {
   margin-left: 0;
 }
-.portfolio-button {
+.main-button {
   background: var(--branding-color);
   border-radius: 2px;
   box-shadow: var(--box-shadow);
@@ -56,10 +51,28 @@ h3 {
   text-decoration: none;
 }
 
-.portfolio-button:hover {
+.main-button:hover {
   color: white;
 }
 
+.about-me {
+  border-radius: 10px;
+  text-align: center;
+  font-size: 20px;
+  padding: 40px 100px;
+  margin: 10px 150px;
+  font-family: "Cormorant Garamond", serif;
+  background-color: rgb(245, 229, 142);
+}
 .portfolio-page {
-  background-color: rgb(233, 222, 127);
+  background-color: #a54176;
+}
+
+.photo-portfolio {
+  max-width: 85%;
+  max-height: 85%;
+}
+
+.portfolio-btn {
+  margin-top: 70px;
 }
