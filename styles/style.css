@@ -1,17 +1,20 @@
 :root {
-  --branding-color: #275e47;
-
+  --about-color: rgb(247, 234, 164);
+  --branding-color: #a2bb4a;
+  --button-color: #275e47;
   --box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+  --portfolio-color: #a76086;
 }
 
 body {
-  background-color: #a2bb4a;
+  background-color: var(--branding-color);
 }
 
 h1 {
   font-family: "Cardo", serif;
   font-size: 55px;
   font-weight: bold;
+  text-align: center;
 }
 
 h2 {
@@ -28,7 +31,7 @@ h3 {
 }
 
 .hero {
-  margin: 150px 150px;
+  margin: 100px 150px 50px 150px;
   text-align: center;
 }
 
@@ -36,22 +39,36 @@ h3 {
   margin-left: 0;
 }
 .main-button {
-  background: var(--branding-color);
+  background: var(--button-color);
   border-radius: 2px;
   box-shadow: var(--box-shadow);
   color: white;
-
   font-family: "Cormorant Garamond", serif;
   font-size: 15px;
-
   margin: 20px 100px;
   padding: 15px 40px;
-
   text-align: center;
   text-decoration: none;
 }
 
 .main-button:hover {
+  color: white;
+}
+
+.secondary-button {
+  background: var(--button-color);
+  border-radius: 2px;
+  box-shadow: var(--box-shadow);
+  color: white;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 15px;
+  margin: 20px 100px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.secondary-button:hover {
   color: white;
 }
 
@@ -62,10 +79,10 @@ h3 {
   padding: 40px 100px;
   margin: 10px 150px;
   font-family: "Cormorant Garamond", serif;
-  background-color: rgb(245, 229, 142);
+  background: var(--about-color);
 }
 .portfolio-page {
-  background-color: #a54176;
+  background-color: var(--portfolio-color);
 }
 
 .photo-portfolio {
@@ -75,4 +92,22 @@ h3 {
 
 .portfolio-btn {
   margin-top: 70px;
+}
+
+.about-me-page {
+  background: var(--about-color);
+}
+
+.about-me-page h1 {
+  padding: 100px 0;
+}
+
+.about-me-content {
+  border-radius: 10px;
+  text-align: center;
+  font-size: 20px;
+  padding: 40px 100px;
+  margin: 10px 50px;
+  font-family: "Cormorant Garamond", serif;
+  background: var(--branding-color);
 }
